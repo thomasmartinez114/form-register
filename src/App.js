@@ -30,6 +30,7 @@ const App = () => {
       placeholder: 'Email',
       errorMessage: 'Valid email address only!',
       label: 'Email',
+      pattern: '[a-z]{2,}+.[a-z0-9]+@igt.com/i',
       required: true,
     },
     {
