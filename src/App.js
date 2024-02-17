@@ -5,10 +5,10 @@ const App = () => {
   return (
     <div className='app'>
       <form>
-        <FormInput />
-        <FormInput />
-        <FormInput />
-        <FormInput />
+        <FormInput placeholder='Username' />
+        <FormInput placeholder='Email' />
+        <FormInput placeholder='Full Name' />
+        <FormInput placeholder='Something Else' />
       </form>
     </div>
   );

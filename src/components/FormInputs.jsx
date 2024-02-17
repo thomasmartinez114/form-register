@@ -1,11 +1,11 @@
 import React from 'react';
 import './formInput.css';
 
-const FormInputs = () => {
+const FormInputs = props => {
   return (
     <div className='formInputs'>
       <label>Username</label>
-      <input />
+      <input placeholder={props.placeholder} />
     </div>
   );
 };
