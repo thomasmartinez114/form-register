@@ -17,6 +17,8 @@ const App = () => {
       name: 'username',
       type: 'text',
       placeholder: 'Username',
+      errorMessage:
+        "Username should be 3-16 characters and shouldn't include any special characters!",
       label: 'Username',
     },
     {
@@ -24,6 +26,7 @@ const App = () => {
       name: 'email',
       type: 'text',
       placeholder: 'Email',
+      errorMessage: 'Valid email address only!',
       label: 'Email',
     },
     {
@@ -38,6 +41,8 @@ const App = () => {
       name: 'password',
       type: 'password',
       placeholder: 'Password',
+      errorMessage:
+        'Password should be 8-20 characters and include atleast 1 letter, 1 number and 1 special character!',
       label: 'Password',
     },
     {
@@ -45,6 +50,7 @@ const App = () => {
       name: 'confrimPassword',
       type: 'password',
       placeholder: 'Confirm Password',
+      errorMessage: 'Passwords do not match!',
       label: 'Confirm Password',
     },
   ];
